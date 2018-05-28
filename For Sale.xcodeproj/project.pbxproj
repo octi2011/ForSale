@@ -7,14 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A42B784EB8B848496AF5C8E1 /* Pods_For_Sale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1923A91345497AFDB23ED9 /* Pods_For_Sale.framework */; };
 		DEF5224720BC661900D0024A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5224620BC661900D0024A /* AppDelegate.swift */; };
 		DEF5224920BC661900D0024A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5224820BC661900D0024A /* ViewController.swift */; };
 		DEF5224C20BC661900D0024A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF5224A20BC661900D0024A /* Main.storyboard */; };
 		DEF5224E20BC661A00D0024A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF5224D20BC661A00D0024A /* Assets.xcassets */; };
 		DEF5225120BC661A00D0024A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF5224F20BC661A00D0024A /* LaunchScreen.storyboard */; };
+		DEF5225D20BC68D300D0024A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5225C20BC68D300D0024A /* Product.swift */; };
+		DEF5225F20BC690E00D0024A /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5225E20BC690E00D0024A /* ProductCell.swift */; };
+		DEF5226120BC6AE600D0024A /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5226020BC6AE600D0024A /* AlertService.swift */; };
+		DEF5226320BC716100D0024A /* UNService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5226220BC716100D0024A /* UNService.swift */; };
+		DEF5226620BC7BB900D0024A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEF5226520BC7BB900D0024A /* GoogleService-Info.plist */; };
+		DEF5226820BC7D0900D0024A /* FIRDatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5226720BC7D0900D0024A /* FIRDatabaseService.swift */; };
+		DEF5226A20BC801C00D0024A /* ProductsSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5226920BC801C00D0024A /* ProductsSnapshot.swift */; };
+		DEF5226C20BC826600D0024A /* ProductsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5226B20BC826600D0024A /* ProductsService.swift */; };
+		DEF5226E20BC88E800D0024A /* FIRMessagingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5226D20BC88E800D0024A /* FIRMessagingService.swift */; };
+		DEF5227620BC950800D0024A /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5227520BC950800D0024A /* NotificationService.swift */; };
+		DEF5227A20BC950800D0024A /* Notif Service Ext.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DEF5227320BC950800D0024A /* Notif Service Ext.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DEF5228020BC97E500D0024A /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5227F20BC97E500D0024A /* DownloadService.swift */; };
+		DEF5228120BC995B00D0024A /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5227F20BC97E500D0024A /* DownloadService.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DEF5227820BC950800D0024A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEF5223B20BC661900D0024A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF5227220BC950800D0024A;
+			remoteInfo = "Notif Service Ext";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEF5227E20BC950800D0024A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DEF5227A20BC950800D0024A /* Notif Service Ext.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		130EC5A903238951E1015C5D /* Pods-For Sale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-For Sale.debug.xcconfig"; path = "Pods/Target Support Files/Pods-For Sale/Pods-For Sale.debug.xcconfig"; sourceTree = "<group>"; };
+		3B1923A91345497AFDB23ED9 /* Pods_For_Sale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_For_Sale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F4217075D4903604FCA71C /* Pods-For Sale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-For Sale.release.xcconfig"; path = "Pods/Target Support Files/Pods-For Sale/Pods-For Sale.release.xcconfig"; sourceTree = "<group>"; };
 		DEF5224320BC661900D0024A /* For Sale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "For Sale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF5224620BC661900D0024A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEF5224820BC661900D0024A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,10 +63,32 @@
 		DEF5224D20BC661A00D0024A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEF5225020BC661A00D0024A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEF5225220BC661A00D0024A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF5225C20BC68D300D0024A /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		DEF5225E20BC690E00D0024A /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		DEF5226020BC6AE600D0024A /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		DEF5226220BC716100D0024A /* UNService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNService.swift; sourceTree = "<group>"; };
+		DEF5226420BC73F900D0024A /* For Sale.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "For Sale.entitlements"; sourceTree = "<group>"; };
+		DEF5226520BC7BB900D0024A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEF5226720BC7D0900D0024A /* FIRDatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRDatabaseService.swift; sourceTree = "<group>"; };
+		DEF5226920BC801C00D0024A /* ProductsSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsSnapshot.swift; sourceTree = "<group>"; };
+		DEF5226B20BC826600D0024A /* ProductsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsService.swift; sourceTree = "<group>"; };
+		DEF5226D20BC88E800D0024A /* FIRMessagingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRMessagingService.swift; sourceTree = "<group>"; };
+		DEF5227320BC950800D0024A /* Notif Service Ext.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Notif Service Ext.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF5227520BC950800D0024A /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		DEF5227720BC950800D0024A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF5227F20BC97E500D0024A /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DEF5224020BC661900D0024A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42B784EB8B848496AF5C8E1 /* Pods_For_Sale.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF5227020BC950800D0024A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,11 +98,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		391A77C83D93D3C091C98CDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				130EC5A903238951E1015C5D /* Pods-For Sale.debug.xcconfig */,
+				59F4217075D4903604FCA71C /* Pods-For Sale.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A22BBBFE86B2AB57DC54D0C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B1923A91345497AFDB23ED9 /* Pods_For_Sale.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DEF5223A20BC661900D0024A = {
 			isa = PBXGroup;
 			children = (
 				DEF5224520BC661900D0024A /* For Sale */,
+				DEF5227420BC950800D0024A /* Notif Service Ext */,
 				DEF5224420BC661900D0024A /* Products */,
+				391A77C83D93D3C091C98CDF /* Pods */,
+				A22BBBFE86B2AB57DC54D0C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				DEF5224320BC661900D0024A /* For Sale.app */,
+				DEF5227320BC950800D0024A /* Notif Service Ext.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +138,66 @@
 		DEF5224520BC661900D0024A /* For Sale */ = {
 			isa = PBXGroup;
 			children = (
-				DEF5224620BC661900D0024A /* AppDelegate.swift */,
-				DEF5224820BC661900D0024A /* ViewController.swift */,
-				DEF5224A20BC661900D0024A /* Main.storyboard */,
-				DEF5224D20BC661A00D0024A /* Assets.xcassets */,
-				DEF5224F20BC661A00D0024A /* LaunchScreen.storyboard */,
+				DEF5226420BC73F900D0024A /* For Sale.entitlements */,
 				DEF5225220BC661A00D0024A /* Info.plist */,
+				DEF5226520BC7BB900D0024A /* GoogleService-Info.plist */,
+				DEF5225B20BC663700D0024A /* Model */,
+				DEF5225A20BC663000D0024A /* View */,
+				DEF5225920BC662900D0024A /* Controller */,
+				DEF5225820BC662100D0024A /* Service */,
 			);
 			path = "For Sale";
+			sourceTree = "<group>";
+		};
+		DEF5225820BC662100D0024A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DEF5226020BC6AE600D0024A /* AlertService.swift */,
+				DEF5226220BC716100D0024A /* UNService.swift */,
+				DEF5226720BC7D0900D0024A /* FIRDatabaseService.swift */,
+				DEF5226B20BC826600D0024A /* ProductsService.swift */,
+				DEF5226D20BC88E800D0024A /* FIRMessagingService.swift */,
+				DEF5227F20BC97E500D0024A /* DownloadService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DEF5225920BC662900D0024A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEF5224620BC661900D0024A /* AppDelegate.swift */,
+				DEF5224820BC661900D0024A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DEF5225A20BC663000D0024A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEF5225E20BC690E00D0024A /* ProductCell.swift */,
+				DEF5224D20BC661A00D0024A /* Assets.xcassets */,
+				DEF5224A20BC661900D0024A /* Main.storyboard */,
+				DEF5224F20BC661A00D0024A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEF5225B20BC663700D0024A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEF5225C20BC68D300D0024A /* Product.swift */,
+				DEF5226920BC801C00D0024A /* ProductsSnapshot.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DEF5227420BC950800D0024A /* Notif Service Ext */ = {
+			isa = PBXGroup;
+			children = (
+				DEF5227520BC950800D0024A /* NotificationService.swift */,
+				DEF5227720BC950800D0024A /* Info.plist */,
+			);
+			path = "Notif Service Ext";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,18 +207,39 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEF5225520BC661A00D0024A /* Build configuration list for PBXNativeTarget "For Sale" */;
 			buildPhases = (
+				9BE274FD471CE93CDA3F3B80 /* [CP] Check Pods Manifest.lock */,
 				DEF5223F20BC661900D0024A /* Sources */,
 				DEF5224020BC661900D0024A /* Frameworks */,
 				DEF5224120BC661900D0024A /* Resources */,
+				A3BE059FEAE2835E6EA293CB /* [CP] Embed Pods Frameworks */,
+				DEF5227E20BC950800D0024A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DEF5227920BC950800D0024A /* PBXTargetDependency */,
 			);
 			name = "For Sale";
 			productName = "For Sale";
 			productReference = DEF5224320BC661900D0024A /* For Sale.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DEF5227220BC950800D0024A /* Notif Service Ext */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF5227B20BC950800D0024A /* Build configuration list for PBXNativeTarget "Notif Service Ext" */;
+			buildPhases = (
+				DEF5226F20BC950800D0024A /* Sources */,
+				DEF5227020BC950800D0024A /* Frameworks */,
+				DEF5227120BC950800D0024A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Notif Service Ext";
+			productName = "Notif Service Ext";
+			productReference = DEF5227320BC950800D0024A /* Notif Service Ext.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +252,17 @@
 				ORGANIZATIONNAME = "Duminica Octavian";
 				TargetAttributes = {
 					DEF5224220BC661900D0024A = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					DEF5227220BC950800D0024A = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
@@ -113,6 +281,7 @@
 			projectRoot = "";
 			targets = (
 				DEF5224220BC661900D0024A /* For Sale */,
+				DEF5227220BC950800D0024A /* Notif Service Ext */,
 			);
 		};
 /* End PBXProject section */
@@ -124,23 +293,102 @@
 			files = (
 				DEF5225120BC661A00D0024A /* LaunchScreen.storyboard in Resources */,
 				DEF5224E20BC661A00D0024A /* Assets.xcassets in Resources */,
+				DEF5226620BC7BB900D0024A /* GoogleService-Info.plist in Resources */,
 				DEF5224C20BC661900D0024A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DEF5227120BC950800D0024A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BE274FD471CE93CDA3F3B80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-For Sale-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3BE059FEAE2835E6EA293CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-For Sale/Pods-For Sale-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-For Sale/Pods-For Sale-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DEF5223F20BC661900D0024A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF5226320BC716100D0024A /* UNService.swift in Sources */,
+				DEF5226820BC7D0900D0024A /* FIRDatabaseService.swift in Sources */,
 				DEF5224920BC661900D0024A /* ViewController.swift in Sources */,
+				DEF5225F20BC690E00D0024A /* ProductCell.swift in Sources */,
 				DEF5224720BC661900D0024A /* AppDelegate.swift in Sources */,
+				DEF5226A20BC801C00D0024A /* ProductsSnapshot.swift in Sources */,
+				DEF5225D20BC68D300D0024A /* Product.swift in Sources */,
+				DEF5226120BC6AE600D0024A /* AlertService.swift in Sources */,
+				DEF5226E20BC88E800D0024A /* FIRMessagingService.swift in Sources */,
+				DEF5226C20BC826600D0024A /* ProductsService.swift in Sources */,
+				DEF5228020BC97E500D0024A /* DownloadService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF5226F20BC950800D0024A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF5227620BC950800D0024A /* NotificationService.swift in Sources */,
+				DEF5228120BC995B00D0024A /* DownloadService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEF5227920BC950800D0024A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEF5227220BC950800D0024A /* Notif Service Ext */;
+			targetProxy = DEF5227820BC950800D0024A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DEF5224A20BC661900D0024A /* Main.storyboard */ = {
@@ -278,8 +526,11 @@
 		};
 		DEF5225620BC661A00D0024A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130EC5A903238951E1015C5D /* Pods-For Sale.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "For Sale/For Sale.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PX5AU8YC45;
 				INFOPLIST_FILE = "For Sale/Info.plist";
@@ -296,8 +547,11 @@
 		};
 		DEF5225720BC661A00D0024A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F4217075D4903604FCA71C /* Pods-For Sale.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "For Sale/For Sale.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PX5AU8YC45;
 				INFOPLIST_FILE = "For Sale/Info.plist";
@@ -307,6 +561,46 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Octavian.For-Sale";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEF5227C20BC950800D0024A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PX5AU8YC45;
+				INFOPLIST_FILE = "Notif Service Ext/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Octavian.For-Sale.Notif-Service-Ext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEF5227D20BC950800D0024A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PX5AU8YC45;
+				INFOPLIST_FILE = "Notif Service Ext/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Octavian.For-Sale.Notif-Service-Ext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,6 +623,15 @@
 			buildConfigurations = (
 				DEF5225620BC661A00D0024A /* Debug */,
 				DEF5225720BC661A00D0024A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF5227B20BC950800D0024A /* Build configuration list for PBXNativeTarget "Notif Service Ext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF5227C20BC950800D0024A /* Debug */,
+				DEF5227D20BC950800D0024A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
